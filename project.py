@@ -33,6 +33,7 @@ def search_by_number(number):
 
 def add_contact():
     employee_id = input("Enter your ID number: ")
+    print(employee_id, "Welcome you have an access to add an contacts")
     new_name = input("Enter the new name: ")
     new_number = input("Enter the new number: ")
     telephone_book[new_name] = new_number
@@ -61,5 +62,6 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
+
 if __name__ == "__main__":
     main()
